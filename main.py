@@ -8,5 +8,8 @@ height = float(input("What is your height? (in meters)\n"))
 # Calculate the bmi score by applying necessary logic. Hint: weight divided by height squared.
 bmi = (weight / height ** 2)
 
+# Round the bmi score to not more than two decimal places
+bmi = round(bmi, 2)
+
 # Display the output on the screen
 print(bmi)
